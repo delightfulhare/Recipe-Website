@@ -1,0 +1,281 @@
+/* Header */
+.logo {
+	font-family: Helvetica;
+	color: black;
+	font-size: 10px;
+	text-align: center;
+	border-bottom: 1px solid #c185a0;
+}
+			/* NavBar */
+.navbar ul {
+		display: flex;
+		justify-content: center;
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+		background-color: #fff;
+}
+.navbar li a {
+		display: block;
+		color: #0e1b17;
+		text-decoration: none;
+		text-transform: uppercase;
+		margin: 20px 25px;
+		padding: 10px;
+		font-size: 13px;
+		letter-spacing: 2px;
+		transition: all 0.4s;
+}
+.navbar ul li a:hover {
+		color: #0e1b17;
+		background-color: #c185a0;
+}
+.navbar ul li a.active{
+		color: #0e1b17;
+		background-color: #c185a0;
+}
+			/* Background Main */
+.wave {
+	background: #fff;
+	margin: 0 40px;
+	width: 1260px;
+	height: 25px;
+	position: relative;
+}
+.wave::before, .wave::after {
+	border-bottom: 5px solid #c8a1ce;
+}
+.wave::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 12px;
+	background-size: 20px 40px;
+	background-image: radial-gradient(circle at 10px -15px, transparent 20px, #c8a1ce 21px);
+}
+.wave::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 18px;
+	background-size: 40px 40px;
+	background-image: radial-gradient(circle at 10px 26px, #c8a1ce 20px, transparent 21px);
+}
+.wavebottom {
+	background: #c8a1ce;
+	margin: 0 40px;
+	width: 1260px;
+	height: 25px;
+	position: relative;
+}
+.wavebottom::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 12px;
+	background-size: 20px 40px;
+	background-image: radial-gradient(circle at 10px -15px, transparent 20px, white 21px);
+}
+.wavebottom::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 18px;
+	background-size: 40px 40px;
+	background-image: radial-gradient(circle at 10px 26px, white 20px, transparent 21px);
+}
+.bg {
+	width: 1260px;
+	height: 400px;
+	margin: 0 40px;
+	background-color: #c8a1ce;
+}
+.text {
+	font-family: Lucida Handwriting;
+	font-size: 20px;
+	color: #fff;
+	padding: 10px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 50px;
+	position: relative;
+}
+.btn_dark {
+	display: inline-block;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	border: 2px solid white;
+	background-color: #c8a1ce;
+	color: #fff;
+	text-decoration: none;
+	padding: 15px 25px;
+	border-radius: 0;
+	font-size: 14px;
+	letter-spacing: 2px;
+	transition: all 0.4s;
+}
+.btn_dark:hover {
+	background-color: #fff;
+	color: #0e1b17;
+}
+#png {
+	width: 600px;
+	height: 300px;
+	padding: 40px 40px;
+	position: absolute;
+}
+
+	/* Discover section */
+.discover {
+	width: 1260px;
+	height: 400px;
+	margin: 0 40px;
+	background-color: #fff;
+}
+#about {
+	font-family: Lucida Handwriting;
+	font-size: 25px;
+	color: #63b09e;
+	padding: 10px;
+	text-align: left;
+	margin-left: 250px;
+	margin-right: 600px;
+	margin-top: 10px;
+	position: relative;
+}
+.btn_light {
+	display: inline-block;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	border: 2px solid #0e1b17;
+	background-color: #fff;
+	color: #0e1b17;
+	text-decoration: none;
+	padding: 15px 25px;
+	border-radius: 0;
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size: 14px;
+	letter-spacing: 2px;
+	transition: all 0.4s;
+}
+.btn_light:hover {
+	background-color: #c185a0;
+	color: #fff;
+	border: 2px solid #fff;
+}
+#img {
+	width: 100%;
+	height: 100%;
+	margin-left: 400px;
+	margin-top: -315px;
+	padding: 40px 40px;
+	position: relative;
+}
+		
+		/* Contact section */
+.wave2 {
+	background: #fff;
+	margin: 0 40px;
+	width: 1260px;
+	height: 25px;
+	position: relative;
+}
+.wave2::before, .wave2::after {
+	border-bottom: 5px solid #c185a0;
+}
+.wave2::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 12px;
+	background-size: 20px 40px;
+	background-image: radial-gradient(circle at 10px -15px, transparent 20px, #c185a0 21px);
+}
+.wave2::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 18px;
+	background-size: 40px 40px;
+	background-image: radial-gradient(circle at 10px 26px, #c185a0 20px, transparent 21px);
+}
+.wavebottom2 {
+	background: #c185a0;
+	margin: 0 40px;
+	width: 1260px;
+	height: 25px;
+	position: relative;
+}
+.wavebottom2::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 12px;
+	background-size: 20px 40px;
+	background-image: radial-gradient(circle at 10px -15px, transparent 20px, white 21px);
+}
+.wavebottom2::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 18px;
+	background-size: 40px 40px;
+	background-image: radial-gradient(circle at 10px 26px, white 20px, transparent 21px);
+}
+.bg2 {
+	width: 1260px;
+	height: 400px;
+	margin: 0 40px;
+	background-color: #c185a0;
+}
+.text2 {
+	font-family: Lucida Handwriting;
+	font-size: 20px;
+	color: #fff;
+	padding: 10px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 50px;
+	position: relative;
+}
+.btn_dark2 {
+	display: inline-block;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	border: 2px solid white;
+	background-color: #c185a0;
+	color: #fff;
+	text-decoration: none;
+	padding: 15px 25px;
+	border-radius: 0;
+	font-size: 14px;
+	letter-spacing: 2px;
+	transition: all 0.4s;
+}
+.btn_dark2:hover {
+	background-color: #fff;
+	color: #0e1b17;
+}
+#png2 {
+	height: 50%;
+	margin-left: 150px;
+	padding: 40px 40px;
+	position: absolute;
+}
